@@ -37,7 +37,7 @@ namespace ZenonsModTemplate
 
         public void Update() 
         {
-            if (modded) return;
+            if (!modded) return;
             {
             int index = -1;
             foreach (VRRig vrrig in GorillaParent.instance.vrrigs)
